@@ -6,6 +6,7 @@ import { SidebarModule } from 'ng-sidebar';
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
+import { LeftMenuComponent } from './left-menu/left-menu.component';
 
 
 @NgModule({
@@ -13,6 +14,7 @@ import { FooterComponent } from './footer/footer.component';
     AppComponent,
     HeaderComponent,
     FooterComponent,
+    LeftMenuComponent,
 
   ],
   imports: [
